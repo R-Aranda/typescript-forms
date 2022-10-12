@@ -42,7 +42,7 @@ function App() {
               Back
             </button>
           )}
-          <button type="button" onClick={next}>
+          <button type="submit" onClick={next}>
             {isLastStep ? "Finish" : "Next"}
           </button>
         </div>
